@@ -133,7 +133,7 @@ def number_chars(target: object, html: object, donot=True) -> bool:
             return 0
 
 
-def beautifyURL(a_func: function) -> function:
+def beautifyURL(a_func):
     """
     decorator add http at start and / to end.
     :param a_func:
